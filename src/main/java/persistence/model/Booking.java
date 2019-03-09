@@ -8,6 +8,7 @@ import persistence.repository.HasId;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
+@Builder
 public class Booking implements HasId<Integer> {
 
     private Integer id;

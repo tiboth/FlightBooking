@@ -26,7 +26,7 @@ public class FlightJdbcRepository implements IRepository<Integer, Flight> {
     public int size() {
         logger.traceEntry();
         Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("select count(*) as [SIZE] from flights")) {
+        try(PreparedStatement preStmt=con.prepareStatement("select count(*) as SIZE from flights")) {
             try(ResultSet result = preStmt.executeQuery()) {
                 if (result.next()) {
                     logger.traceExit(result.getInt("SIZE"));
@@ -44,13 +44,12 @@ public class FlightJdbcRepository implements IRepository<Integer, Flight> {
     public void save(Flight entity) {
         logger.traceEntry("saving flight {} ",entity);
         Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("insert into flights values (?,?,?,?,?,?)")){
-            preStmt.setInt(1,entity.getId());
-            preStmt.setString(2,entity.getDepartureDate());
-            preStmt.setString(3,entity.getDepartureTime());
-            preStmt.setString(4,entity.getAirport());
-            preStmt.setString(5,entity.getDestination());
-            preStmt.setInt(6,entity.getPlaces());
+        try(PreparedStatement preStmt=con.prepareStatement("insert into flights (departureDate, departureTime, airport, destination, places) values (?,?,?,?,?)")){
+            preStmt.setString(1,entity.getDepartureDate());
+            preStmt.setString(2,entity.getDepartureTime());
+            preStmt.setString(3,entity.getAirport());
+            preStmt.setString(4,entity.getDestination());
+            preStmt.setInt(5,entity.getPlaces());
             int result=preStmt.executeUpdate();
         }catch (SQLException ex){
             logger.error(ex);
@@ -74,18 +73,30 @@ public class FlightJdbcRepository implements IRepository<Integer, Flight> {
         logger.traceExit();
     }
 
+    //@Override
+    public void deleteAll( ) {
+        logger.traceEntry("deleting all flight");
+        Connection con=dbUtils.getConnection();
+        try(PreparedStatement preStmt=con.prepareStatement("delete from flights")) {
+            int result=preStmt.executeUpdate();
+        }catch (SQLException ex){
+            logger.error(ex);
+            System.out.println("Error DB "+ex);
+        }
+        logger.traceExit();
+    }
+
     @Override
     public void update(Integer integer, Flight entity) {
         logger.traceEntry("updating flight with {}",integer);
         Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("update flights set id=?,date=?,hour=?,airport=?,destination=?,places=? where id=?")){
-            preStmt.setInt(1,entity.getId());
-            preStmt.setString(2,entity.getDepartureDate());
-            preStmt.setString(3,entity.getDepartureTime());
-            preStmt.setString(4,entity.getAirport());
-            preStmt.setString(5,entity.getDestination());
-            preStmt.setInt(6,entity.getPlaces());
-            preStmt.setInt(7,entity.getId());
+        try(PreparedStatement preStmt=con.prepareStatement("update flights set departureDate=?,departureTime=?,airport=?,destination=?,places=? where id=?")){
+            preStmt.setString(1,entity.getDepartureDate());
+            preStmt.setString(2,entity.getDepartureTime());
+            preStmt.setString(3,entity.getAirport());
+            preStmt.setString(4,entity.getDestination());
+            preStmt.setInt(5,entity.getPlaces());
+            preStmt.setInt(6,integer);
 
             int result=preStmt.executeUpdate();
         }catch (SQLException ex){
@@ -105,8 +116,8 @@ public class FlightJdbcRepository implements IRepository<Integer, Flight> {
             try(ResultSet result=preStmt.executeQuery()) {
                 if (result.next()) {
                     int id = result.getInt("id");
-                    String date = result.getString("date");
-                    String hour = result.getString("hour");
+                    String date = result.getString("departureDate");
+                    String hour = result.getString("departureTime");
                     String airport = result.getString("airport");
                     String destination = result.getString("destination");
                     int places = result.getInt("places");
@@ -125,7 +136,7 @@ public class FlightJdbcRepository implements IRepository<Integer, Flight> {
         return null;
     }
 
-    public Iterable<Flight> findFlightWithDestinationAndDate(String destination, String departureDate) {
+    public Iterable<Flight> findAllFlightsWithDestinationAndDate(String destination, String departureDate) {
         logger.traceEntry("finding flight with destination {} and date {}",destination, departureDate);
         Connection con=dbUtils.getConnection();
         List<Flight> flights=new ArrayList<>();
@@ -137,8 +148,8 @@ public class FlightJdbcRepository implements IRepository<Integer, Flight> {
             try(ResultSet result=preStmt.executeQuery()) {
                 while (result.next()) {
                     int id = result.getInt("id");
-                    String date = result.getString("date");
-                    String hour = result.getString("hour");
+                    String date = result.getString("departureDate");
+                    String hour = result.getString("departureTime");
                     String airport = result.getString("airport");
                     String dest = result.getString("destination");
                     int places = result.getInt("places");
@@ -155,7 +166,7 @@ public class FlightJdbcRepository implements IRepository<Integer, Flight> {
         return flights;
     }
 
-    public Iterable<Flight> findFlightWithDestinationAndDateAndHour(String destination, String departureDate, String departureTime) {
+    public Iterable<Flight> findAllFlightsWithDestinationAndDateAndTime(String destination, String departureDate, String departureTime) {
         logger.traceEntry("finding flight with destination {} and date {} and hour {}",destination, departureDate, departureTime);
         Connection con=dbUtils.getConnection();
         List<Flight> flights=new ArrayList<>();
@@ -168,8 +179,8 @@ public class FlightJdbcRepository implements IRepository<Integer, Flight> {
             try(ResultSet result=preStmt.executeQuery()) {
                 while (result.next()) {
                     int id = result.getInt("id");
-                    String date = result.getString("date");
-                    String hour = result.getString("hour");
+                    String date = result.getString("departureDate");
+                    String hour = result.getString("departureTime");
                     String airport = result.getString("airport");
                     String dest = result.getString("destination");
                     int places = result.getInt("places");
@@ -195,8 +206,8 @@ public class FlightJdbcRepository implements IRepository<Integer, Flight> {
             try(ResultSet result=preStmt.executeQuery()) {
                 while (result.next()) {
                     int id = result.getInt("id");
-                    String date = result.getString("date");
-                    String hour = result.getString("hour");
+                    String date = result.getString("departureDate");
+                    String hour = result.getString("departureTime");
                     String airport = result.getString("airport");
                     String destination = result.getString("destination");
                     int places = result.getInt("places");

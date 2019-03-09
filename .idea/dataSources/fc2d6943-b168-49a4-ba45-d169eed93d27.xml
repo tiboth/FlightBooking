@@ -988,7 +988,7 @@
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
     <table id="250" parent="13" name="bookings"/>
-    <table id="251" parent="13" name="emplyees"/>
+    <table id="251" parent="13" name="employees"/>
     <table id="252" parent="13" name="flights"/>
     <column id="253" parent="250" name="id">
       <Position>1</Position>

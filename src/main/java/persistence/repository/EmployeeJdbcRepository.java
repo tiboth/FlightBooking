@@ -26,7 +26,7 @@ public class EmployeeJdbcRepository implements IRepository<Integer, Employee> {
     public int size() {
         logger.traceEntry();
         Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("select count(*) as [SIZE] from emplyees")) {
+        try(PreparedStatement preStmt=con.prepareStatement("select count(*) as SIZE from employees")) {
             try(ResultSet result = preStmt.executeQuery()) {
                 if (result.next()) {
                     logger.traceExit(result.getInt("SIZE"));
@@ -44,10 +44,9 @@ public class EmployeeJdbcRepository implements IRepository<Integer, Employee> {
     public void save(Employee entity) {
         logger.traceEntry("saving employee {} ",entity);
         Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("insert into emplyees values (?,?,?)")){
-            preStmt.setInt(1,entity.getId());
-            preStmt.setString(2,entity.getUsername());
-            preStmt.setString(3,entity.getPassword());
+        try(PreparedStatement preStmt=con.prepareStatement("insert into employees (username, password) values (?,?)")){
+            preStmt.setString(1,entity.getUsername());
+            preStmt.setString(2,entity.getPassword());
             int result=preStmt.executeUpdate();
         }catch (SQLException ex){
             logger.error(ex);
@@ -61,8 +60,21 @@ public class EmployeeJdbcRepository implements IRepository<Integer, Employee> {
     public void delete(Integer integer) {
         logger.traceEntry("deleting employee with {}",integer);
         Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("delete from emplyees where id=?")){
+        try(PreparedStatement preStmt=con.prepareStatement("delete from employees where id=?")){
             preStmt.setInt(1,integer);
+            int result=preStmt.executeUpdate();
+        }catch (SQLException ex){
+            logger.error(ex);
+            System.out.println("Error DB "+ex);
+        }
+        logger.traceExit();
+    }
+
+    //@Override
+    public void deleteAll( ) {
+        logger.traceEntry("deleting all employees");
+        Connection con=dbUtils.getConnection();
+        try(PreparedStatement preStmt=con.prepareStatement("delete from employees")) {
             int result=preStmt.executeUpdate();
         }catch (SQLException ex){
             logger.error(ex);
@@ -75,11 +87,10 @@ public class EmployeeJdbcRepository implements IRepository<Integer, Employee> {
     public void update(Integer integer, Employee entity) {
         logger.traceEntry("updating employee with {}",integer);
         Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("update emplyees set id=?,username=?,password=? where id=?")){
-            preStmt.setInt(1,entity.getId());
-            preStmt.setString(2,entity.getUsername());
-            preStmt.setString(3,entity.getPassword());
-            preStmt.setInt(4,entity.getId());
+        try(PreparedStatement preStmt=con.prepareStatement("update employees set username=?,password=? where id=?")){
+            preStmt.setString(1,entity.getUsername());
+            preStmt.setString(2,entity.getPassword());
+            preStmt.setInt(3,integer);
 
             int result=preStmt.executeUpdate();
         }catch (SQLException ex){
@@ -94,7 +105,7 @@ public class EmployeeJdbcRepository implements IRepository<Integer, Employee> {
         logger.traceEntry("finding employee with id {} ",integer);
         Connection con=dbUtils.getConnection();
 
-        try(PreparedStatement preStmt=con.prepareStatement("select * from SortingTasks where id=?")){
+        try(PreparedStatement preStmt=con.prepareStatement("select * from employees where id=?")){
             preStmt.setInt(1,integer);
             try(ResultSet result=preStmt.executeQuery()) {
                 if (result.next()) {
@@ -121,7 +132,7 @@ public class EmployeeJdbcRepository implements IRepository<Integer, Employee> {
         logger.traceEntry();
         Connection con=dbUtils.getConnection();
         List<Employee> employees=new ArrayList<>();
-        try(PreparedStatement preStmt=con.prepareStatement("select * from emplyees")) {
+        try(PreparedStatement preStmt=con.prepareStatement("select * from employees")) {
             try(ResultSet result=preStmt.executeQuery()) {
                 while (result.next()) {
                     int id = result.getInt("id");

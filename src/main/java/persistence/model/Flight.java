@@ -8,6 +8,7 @@ import persistence.repository.HasId;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
+@Builder
 public class Flight implements HasId<Integer> {
     private Integer id;
     private String departureDate;
@@ -15,4 +16,5 @@ public class Flight implements HasId<Integer> {
     private String airport;
     private String destination;
     private int places;
+
 }

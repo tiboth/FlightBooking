@@ -26,7 +26,7 @@ public class BookingJdbcRepository implements IRepository<Integer, Booking> {
     public int size() {
         logger.traceEntry();
         Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("select count(*) as [SIZE] from bookings")) {
+        try(PreparedStatement preStmt=con.prepareStatement("select count(*) as SIZE from bookings")) {
             try(ResultSet result = preStmt.executeQuery()) {
                 if (result.next()) {
                     logger.traceExit(result.getInt("SIZE"));
@@ -44,13 +44,13 @@ public class BookingJdbcRepository implements IRepository<Integer, Booking> {
     public void save(Booking entity) {
         logger.traceEntry("saving booking {} ",entity);
         Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("insert into bookings values (?,?,?,?,?,?)")){
-            preStmt.setInt(1,entity.getId());
-            preStmt.setInt(2,entity.getFlightId());
-            preStmt.setString(3,entity.getClientName());
-            preStmt.setString(4,entity.getClientAddress());
-            preStmt.setString(5,entity.getTourists());
-            preStmt.setInt(6,entity.getNrSeats());
+        try(PreparedStatement preStmt=con.prepareStatement("insert into bookings (flightId, clientName, clientAddress, tourists, nrSeats) values (?,?,?,?,?)")){
+            //preStmt.setInt(1,entity.getId());
+            preStmt.setInt(1,entity.getFlightId());
+            preStmt.setString(2,entity.getClientName());
+            preStmt.setString(3,entity.getClientAddress());
+            preStmt.setString(4,entity.getTourists());
+            preStmt.setInt(5,entity.getNrSeats());
             int result=preStmt.executeUpdate();
         }catch (SQLException ex){
             logger.error(ex);
@@ -74,18 +74,30 @@ public class BookingJdbcRepository implements IRepository<Integer, Booking> {
         logger.traceExit();
     }
 
+    //@Override
+    public void deleteAll( ) {
+        logger.traceEntry("deleting all bookings");
+        Connection con=dbUtils.getConnection();
+        try(PreparedStatement preStmt=con.prepareStatement("delete from bookings")) {
+            int result=preStmt.executeUpdate();
+        }catch (SQLException ex){
+            logger.error(ex);
+            System.out.println("Error DB "+ex);
+        }
+        logger.traceExit();
+    }
+
     @Override
     public void update(Integer integer, Booking entity) {
         logger.traceEntry("updating booking with {}",integer);
         Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("update bookings set id=?,flightId=?,clientName=?,clientAddress=?,tourists=?,nrSeats=? where id=?")){
-            preStmt.setInt(1,entity.getId());
-            preStmt.setInt(2,entity.getFlightId());
-            preStmt.setString(3,entity.getClientName());
-            preStmt.setString(4,entity.getClientAddress());
-            preStmt.setString(5,entity.getTourists());
-            preStmt.setInt(6,entity.getNrSeats());
-            preStmt.setInt(7,entity.getId());
+        try(PreparedStatement preStmt=con.prepareStatement("update bookings set flightId=?,clientName=?,clientAddress=?,tourists=?,nrSeats=? where id=?")){
+            preStmt.setInt(1,entity.getFlightId());
+            preStmt.setString(2,entity.getClientName());
+            preStmt.setString(3,entity.getClientAddress());
+            preStmt.setString(4,entity.getTourists());
+            preStmt.setInt(5,entity.getNrSeats());
+            preStmt.setInt(6,integer);
 
             int result=preStmt.executeUpdate();
         }catch (SQLException ex){
@@ -131,7 +143,7 @@ public class BookingJdbcRepository implements IRepository<Integer, Booking> {
         logger.traceEntry();
         Connection con=dbUtils.getConnection();
         List<Booking> bookings = new ArrayList<>();
-        try(PreparedStatement preStmt=con.prepareStatement("select * from booking")) {
+        try(PreparedStatement preStmt=con.prepareStatement("select * from bookings")) {
             try(ResultSet result=preStmt.executeQuery()) {
                 while (result.next()) {
                     int id = result.getInt("id");
