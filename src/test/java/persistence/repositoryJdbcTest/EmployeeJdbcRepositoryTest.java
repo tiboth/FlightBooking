@@ -145,8 +145,6 @@ public class EmployeeJdbcRepositoryTest {
 
     }
 
-
-
     private Employee createEmployee1() {
         return Employee.builder().
                 username("username").

@@ -6570,3 +6570,1359 @@
 09 Mar 2019 17:48:40,735 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
 09 Mar 2019 17:48:40,736 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1a49efda)
 09 Mar 2019 17:48:40,737 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:20,965 INFO  persistence.repository.BookingJdbcRepository 21 <init> - Initializing BookingJdbcRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:20,985 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:20,988 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:20,989 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:20,990 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:20,991 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:20,992 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:21,017 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:21,663 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@15ae4a8f)
+09 Mar 2019 20:05:21,718 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:21,719 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:21,719 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:21,720 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@15ae4a8f)
+09 Mar 2019 20:05:21,866 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:21,868 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:21,869 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:21,871 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@15ae4a8f)
+09 Mar 2019 20:05:21,873 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:21,879 INFO  persistence.repository.BookingJdbcRepository 21 <init> - Initializing BookingJdbcRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:21,881 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:21,882 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:21,883 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:21,884 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:21,885 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:21,886 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:21,887 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:21,897 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@11b2edd7)
+09 Mar 2019 20:05:21,899 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:21,900 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:21,901 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:21,901 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@11b2edd7)
+09 Mar 2019 20:05:21,904 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:21,907 TRACE persistence.repository.BookingJdbcRepository 45 save - Enter saving booking Booking(id=null, flightId=1, clientName=Test1, clientAddress=TestAddress1, tourists=testTourist1, testTourist2, nrSeats=2) 
+09 Mar 2019 20:05:21,908 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:21,908 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@11b2edd7)
+09 Mar 2019 20:05:21,917 TRACE persistence.repository.BookingJdbcRepository 59 save - Exit
+09 Mar 2019 20:05:21,918 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:21,919 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:21,920 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@11b2edd7)
+09 Mar 2019 20:05:21,922 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:21,923 TRACE persistence.repository.BookingJdbcRepository 143 findAll - Enter
+09 Mar 2019 20:05:21,924 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:21,925 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@11b2edd7)
+09 Mar 2019 20:05:21,928 TRACE persistence.repository.BookingJdbcRepository 164 findAll - Exit with([Booking(id=52, flightId=1, clientName=Test1, clientAddress=TestAddress1, tourists=testTourist1, testTourist2, nrSeats=2)])
+09 Mar 2019 20:05:21,948 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:21,949 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:21,950 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@11b2edd7)
+09 Mar 2019 20:05:21,954 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:21,957 INFO  persistence.repository.BookingJdbcRepository 21 <init> - Initializing BookingJdbcRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:21,959 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:21,960 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:21,961 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:21,962 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:21,963 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:21,964 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:21,965 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:21,974 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@459e36f6)
+09 Mar 2019 20:05:21,976 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:21,977 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:21,977 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:21,978 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@459e36f6)
+09 Mar 2019 20:05:21,980 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:21,981 TRACE persistence.repository.BookingJdbcRepository 45 save - Enter saving booking Booking(id=null, flightId=1, clientName=Test1, clientAddress=TestAddress1, tourists=testTourist1, testTourist2, nrSeats=2) 
+09 Mar 2019 20:05:21,982 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:21,983 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@459e36f6)
+09 Mar 2019 20:05:21,988 TRACE persistence.repository.BookingJdbcRepository 59 save - Exit
+09 Mar 2019 20:05:21,989 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:21,990 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:21,991 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@459e36f6)
+09 Mar 2019 20:05:21,994 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:21,995 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:21,995 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:21,996 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@459e36f6)
+09 Mar 2019 20:05:22,000 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:22,004 INFO  persistence.repository.BookingJdbcRepository 21 <init> - Initializing BookingJdbcRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:22,006 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:22,008 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,009 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:22,010 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:22,011 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:22,011 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:22,013 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:22,024 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1325c98b)
+09 Mar 2019 20:05:22,026 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:22,027 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,028 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,029 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1325c98b)
+09 Mar 2019 20:05:22,032 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,033 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:22,034 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,035 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1325c98b)
+09 Mar 2019 20:05:22,037 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:22,040 INFO  persistence.repository.BookingJdbcRepository 21 <init> - Initializing BookingJdbcRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:22,042 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:22,043 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,044 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:22,046 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:22,046 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:22,047 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:22,048 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:22,058 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5d3788da)
+09 Mar 2019 20:05:22,060 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:22,061 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,061 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,062 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5d3788da)
+09 Mar 2019 20:05:22,064 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,065 TRACE persistence.repository.BookingJdbcRepository 45 save - Enter saving booking Booking(id=null, flightId=1, clientName=Test1, clientAddress=TestAddress1, tourists=testTourist1, testTourist2, nrSeats=2) 
+09 Mar 2019 20:05:22,066 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,067 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5d3788da)
+09 Mar 2019 20:05:22,071 TRACE persistence.repository.BookingJdbcRepository 59 save - Exit
+09 Mar 2019 20:05:22,072 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,073 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,074 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5d3788da)
+09 Mar 2019 20:05:22,076 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:22,077 TRACE persistence.repository.BookingJdbcRepository 143 findAll - Enter
+09 Mar 2019 20:05:22,077 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,078 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5d3788da)
+09 Mar 2019 20:05:22,080 TRACE persistence.repository.BookingJdbcRepository 164 findAll - Exit with([Booking(id=54, flightId=1, clientName=Test1, clientAddress=TestAddress1, tourists=testTourist1, testTourist2, nrSeats=2)])
+09 Mar 2019 20:05:22,081 TRACE persistence.repository.BookingJdbcRepository 92 update - Enter updating booking with 54
+09 Mar 2019 20:05:22,082 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,083 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5d3788da)
+09 Mar 2019 20:05:22,087 TRACE persistence.repository.BookingJdbcRepository 107 update - Exit
+09 Mar 2019 20:05:22,088 TRACE persistence.repository.BookingJdbcRepository 143 findAll - Enter
+09 Mar 2019 20:05:22,089 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,090 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5d3788da)
+09 Mar 2019 20:05:22,092 TRACE persistence.repository.BookingJdbcRepository 164 findAll - Exit with([Booking(id=54, flightId=2, clientName=UpdateName, clientAddress=UpdateAddress, tourists=updateTourist, nrSeats=1)])
+09 Mar 2019 20:05:22,093 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:22,094 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,094 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5d3788da)
+09 Mar 2019 20:05:22,098 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:22,101 INFO  persistence.repository.BookingJdbcRepository 21 <init> - Initializing BookingJdbcRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:22,103 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:22,104 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,105 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:22,106 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:22,107 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:22,108 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:22,109 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:22,119 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5e3f7a4e)
+09 Mar 2019 20:05:22,121 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:22,122 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,123 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,123 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5e3f7a4e)
+09 Mar 2019 20:05:22,126 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,126 TRACE persistence.repository.BookingJdbcRepository 45 save - Enter saving booking Booking(id=null, flightId=1, clientName=Test1, clientAddress=TestAddress1, tourists=testTourist1, testTourist2, nrSeats=2) 
+09 Mar 2019 20:05:22,127 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,128 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5e3f7a4e)
+09 Mar 2019 20:05:22,132 TRACE persistence.repository.BookingJdbcRepository 59 save - Exit
+09 Mar 2019 20:05:22,134 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,135 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,135 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5e3f7a4e)
+09 Mar 2019 20:05:22,138 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:22,139 TRACE persistence.repository.BookingJdbcRepository 143 findAll - Enter
+09 Mar 2019 20:05:22,140 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,141 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5e3f7a4e)
+09 Mar 2019 20:05:22,144 TRACE persistence.repository.BookingJdbcRepository 164 findAll - Exit with([Booking(id=55, flightId=1, clientName=Test1, clientAddress=TestAddress1, tourists=testTourist1, testTourist2, nrSeats=2)])
+09 Mar 2019 20:05:22,145 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,146 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,147 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5e3f7a4e)
+09 Mar 2019 20:05:22,150 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:22,151 TRACE persistence.repository.BookingJdbcRepository 65 delete - Enter deleting booking with 55
+09 Mar 2019 20:05:22,152 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,153 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5e3f7a4e)
+09 Mar 2019 20:05:22,157 TRACE persistence.repository.BookingJdbcRepository 74 delete - Exit
+09 Mar 2019 20:05:22,158 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,159 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,159 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5e3f7a4e)
+09 Mar 2019 20:05:22,162 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,163 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:22,165 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,166 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5e3f7a4e)
+09 Mar 2019 20:05:22,168 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:22,171 INFO  persistence.repository.BookingJdbcRepository 21 <init> - Initializing BookingJdbcRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:22,172 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:22,173 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,174 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:22,175 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:22,175 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:22,176 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:22,177 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:22,187 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c384f6d)
+09 Mar 2019 20:05:22,188 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:22,189 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,190 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,191 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c384f6d)
+09 Mar 2019 20:05:22,193 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,195 TRACE persistence.repository.BookingJdbcRepository 45 save - Enter saving booking Booking(id=null, flightId=1, clientName=Test1, clientAddress=TestAddress1, tourists=testTourist1, testTourist2, nrSeats=2) 
+09 Mar 2019 20:05:22,196 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,196 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c384f6d)
+09 Mar 2019 20:05:22,201 TRACE persistence.repository.BookingJdbcRepository 59 save - Exit
+09 Mar 2019 20:05:22,202 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,204 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,205 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c384f6d)
+09 Mar 2019 20:05:22,207 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:22,208 TRACE persistence.repository.BookingJdbcRepository 143 findAll - Enter
+09 Mar 2019 20:05:22,209 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,210 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c384f6d)
+09 Mar 2019 20:05:22,212 TRACE persistence.repository.BookingJdbcRepository 164 findAll - Exit with([Booking(id=56, flightId=1, clientName=Test1, clientAddress=TestAddress1, tourists=testTourist1, testTourist2, nrSeats=2)])
+09 Mar 2019 20:05:22,213 TRACE persistence.repository.BookingJdbcRepository 112 findOne - Enter finding task with id 56 
+09 Mar 2019 20:05:22,214 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,215 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c384f6d)
+09 Mar 2019 20:05:22,218 TRACE persistence.repository.BookingJdbcRepository 128 findOne - Exit with(Booking(id=56, flightId=1, clientName=Test1, clientAddress=TestAddress1, tourists=testTourist1, testTourist2, nrSeats=2))
+09 Mar 2019 20:05:22,219 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:22,220 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,221 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c384f6d)
+09 Mar 2019 20:05:22,225 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:22,239 INFO  persistence.repository.EmployeeJdbcRepository 21 <init> - Initializing EmployeeRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:22,241 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:22,241 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,243 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:22,244 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:22,244 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:22,245 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:22,246 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:22,257 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2d9b7d92)
+09 Mar 2019 20:05:22,260 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:22,261 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,261 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,262 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2d9b7d92)
+09 Mar 2019 20:05:22,264 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,267 TRACE persistence.repository.EmployeeJdbcRepository 45 save - Enter saving employee Employee(id=null, username=username, password=password) 
+09 Mar 2019 20:05:22,268 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,269 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2d9b7d92)
+09 Mar 2019 20:05:22,273 TRACE persistence.repository.EmployeeJdbcRepository 55 save - Exit
+09 Mar 2019 20:05:22,274 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,275 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,276 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2d9b7d92)
+09 Mar 2019 20:05:22,278 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:22,279 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:22,280 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,281 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2d9b7d92)
+09 Mar 2019 20:05:22,287 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:22,289 INFO  persistence.repository.EmployeeJdbcRepository 21 <init> - Initializing EmployeeRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:22,290 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:22,291 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,293 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:22,294 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:22,295 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:22,296 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:22,297 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:22,307 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@35f3fbb8)
+09 Mar 2019 20:05:22,309 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:22,310 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,311 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,312 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@35f3fbb8)
+09 Mar 2019 20:05:22,316 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,317 TRACE persistence.repository.EmployeeJdbcRepository 45 save - Enter saving employee Employee(id=null, username=username, password=password) 
+09 Mar 2019 20:05:22,318 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,319 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@35f3fbb8)
+09 Mar 2019 20:05:22,323 TRACE persistence.repository.EmployeeJdbcRepository 55 save - Exit
+09 Mar 2019 20:05:22,324 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,325 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,326 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@35f3fbb8)
+09 Mar 2019 20:05:22,329 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:22,329 TRACE persistence.repository.EmployeeJdbcRepository 132 findAll - Enter
+09 Mar 2019 20:05:22,330 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,333 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@35f3fbb8)
+09 Mar 2019 20:05:22,336 TRACE persistence.repository.EmployeeJdbcRepository 150 findAll - Exit with([Employee(id=50, username=username, password=password)])
+09 Mar 2019 20:05:22,337 TRACE persistence.repository.EmployeeJdbcRepository 105 findOne - Enter finding employee with id 50 
+09 Mar 2019 20:05:22,337 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,338 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@35f3fbb8)
+09 Mar 2019 20:05:22,340 TRACE persistence.repository.EmployeeJdbcRepository 117 findOne - Exit with(Employee(id=50, username=username, password=password))
+09 Mar 2019 20:05:22,341 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:22,341 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,342 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@35f3fbb8)
+09 Mar 2019 20:05:22,345 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:22,348 INFO  persistence.repository.EmployeeJdbcRepository 21 <init> - Initializing EmployeeRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:22,349 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:22,350 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,351 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:22,352 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:22,353 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:22,354 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:22,355 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:22,364 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@562b134a)
+09 Mar 2019 20:05:22,366 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:22,367 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,368 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,368 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@562b134a)
+09 Mar 2019 20:05:22,370 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,371 TRACE persistence.repository.EmployeeJdbcRepository 45 save - Enter saving employee Employee(id=null, username=username, password=password) 
+09 Mar 2019 20:05:22,372 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,372 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@562b134a)
+09 Mar 2019 20:05:22,377 TRACE persistence.repository.EmployeeJdbcRepository 55 save - Exit
+09 Mar 2019 20:05:22,378 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,378 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,379 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@562b134a)
+09 Mar 2019 20:05:22,381 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:22,382 TRACE persistence.repository.EmployeeJdbcRepository 132 findAll - Enter
+09 Mar 2019 20:05:22,383 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,384 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@562b134a)
+09 Mar 2019 20:05:22,386 TRACE persistence.repository.EmployeeJdbcRepository 150 findAll - Exit with([Employee(id=51, username=username, password=password)])
+09 Mar 2019 20:05:22,386 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:22,387 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,389 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@562b134a)
+09 Mar 2019 20:05:22,393 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:22,395 INFO  persistence.repository.EmployeeJdbcRepository 21 <init> - Initializing EmployeeRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:22,397 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:22,398 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,399 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:22,400 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:22,401 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:22,401 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:22,402 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:22,433 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@133c5c87)
+09 Mar 2019 20:05:22,435 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:22,436 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,436 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,437 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@133c5c87)
+09 Mar 2019 20:05:22,439 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,440 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:22,441 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,441 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@133c5c87)
+09 Mar 2019 20:05:22,444 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:22,446 INFO  persistence.repository.EmployeeJdbcRepository 21 <init> - Initializing EmployeeRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:22,448 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:22,449 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,450 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:22,450 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:22,451 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:22,452 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:22,453 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:22,462 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@440ab6fb)
+09 Mar 2019 20:05:22,465 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:22,465 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,466 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,467 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@440ab6fb)
+09 Mar 2019 20:05:22,469 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,470 TRACE persistence.repository.EmployeeJdbcRepository 45 save - Enter saving employee Employee(id=null, username=username, password=password) 
+09 Mar 2019 20:05:22,471 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,472 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@440ab6fb)
+09 Mar 2019 20:05:22,476 TRACE persistence.repository.EmployeeJdbcRepository 55 save - Exit
+09 Mar 2019 20:05:22,477 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,477 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,478 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@440ab6fb)
+09 Mar 2019 20:05:22,480 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:22,481 TRACE persistence.repository.EmployeeJdbcRepository 132 findAll - Enter
+09 Mar 2019 20:05:22,482 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,483 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@440ab6fb)
+09 Mar 2019 20:05:22,485 TRACE persistence.repository.EmployeeJdbcRepository 150 findAll - Exit with([Employee(id=52, username=username, password=password)])
+09 Mar 2019 20:05:22,486 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,486 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,487 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@440ab6fb)
+09 Mar 2019 20:05:22,489 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:22,490 TRACE persistence.repository.EmployeeJdbcRepository 61 delete - Enter deleting employee with 52
+09 Mar 2019 20:05:22,490 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,491 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@440ab6fb)
+09 Mar 2019 20:05:22,495 TRACE persistence.repository.EmployeeJdbcRepository 70 delete - Exit
+09 Mar 2019 20:05:22,496 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,496 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,497 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@440ab6fb)
+09 Mar 2019 20:05:22,500 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,501 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:22,501 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,502 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@440ab6fb)
+09 Mar 2019 20:05:22,504 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:22,506 INFO  persistence.repository.EmployeeJdbcRepository 21 <init> - Initializing EmployeeRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:22,507 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:22,508 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,508 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:22,509 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:22,509 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:22,510 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:22,511 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:22,519 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7b1cd5d7)
+09 Mar 2019 20:05:22,521 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:22,521 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,522 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,523 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7b1cd5d7)
+09 Mar 2019 20:05:22,525 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,525 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:22,526 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,526 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7b1cd5d7)
+09 Mar 2019 20:05:22,527 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:22,529 INFO  persistence.repository.EmployeeJdbcRepository 21 <init> - Initializing EmployeeRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:22,531 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:22,532 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,533 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:22,534 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:22,534 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:22,535 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:22,536 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:22,544 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2e2d34b7)
+09 Mar 2019 20:05:22,546 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:22,548 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,549 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,550 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2e2d34b7)
+09 Mar 2019 20:05:22,552 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,553 TRACE persistence.repository.EmployeeJdbcRepository 45 save - Enter saving employee Employee(id=null, username=username, password=password) 
+09 Mar 2019 20:05:22,554 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,555 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2e2d34b7)
+09 Mar 2019 20:05:22,560 TRACE persistence.repository.EmployeeJdbcRepository 55 save - Exit
+09 Mar 2019 20:05:22,561 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,562 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,563 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2e2d34b7)
+09 Mar 2019 20:05:22,565 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:22,566 TRACE persistence.repository.EmployeeJdbcRepository 132 findAll - Enter
+09 Mar 2019 20:05:22,567 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,568 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2e2d34b7)
+09 Mar 2019 20:05:22,570 TRACE persistence.repository.EmployeeJdbcRepository 150 findAll - Exit with([Employee(id=53, username=username, password=password)])
+09 Mar 2019 20:05:22,571 TRACE persistence.repository.EmployeeJdbcRepository 88 update - Enter updating employee with 53
+09 Mar 2019 20:05:22,571 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,572 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2e2d34b7)
+09 Mar 2019 20:05:22,576 TRACE persistence.repository.EmployeeJdbcRepository 100 update - Exit
+09 Mar 2019 20:05:22,577 TRACE persistence.repository.EmployeeJdbcRepository 132 findAll - Enter
+09 Mar 2019 20:05:22,578 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,578 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2e2d34b7)
+09 Mar 2019 20:05:22,581 TRACE persistence.repository.EmployeeJdbcRepository 150 findAll - Exit with([Employee(id=53, username=username2, password=password2)])
+09 Mar 2019 20:05:22,582 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:22,583 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,583 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2e2d34b7)
+09 Mar 2019 20:05:22,587 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:22,602 INFO  persistence.repository.FlightJdbcRepository 21 <init> - Initializing FlightRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:22,604 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:22,605 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,606 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:22,607 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:22,608 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:22,609 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:22,609 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:22,619 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4210fe1b)
+09 Mar 2019 20:05:22,621 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:22,622 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,623 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,624 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4210fe1b)
+09 Mar 2019 20:05:22,626 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,627 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:22,627 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,628 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4210fe1b)
+09 Mar 2019 20:05:22,629 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:22,631 INFO  persistence.repository.FlightJdbcRepository 21 <init> - Initializing FlightRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:22,634 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:22,635 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,636 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:22,636 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:22,637 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:22,637 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:22,638 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:22,647 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4b65183a)
+09 Mar 2019 20:05:22,649 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:22,650 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,651 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,652 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4b65183a)
+09 Mar 2019 20:05:22,654 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,657 TRACE persistence.repository.FlightJdbcRepository 45 save - Enter saving flight Flight(id=null, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250) 
+09 Mar 2019 20:05:22,658 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,659 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4b65183a)
+09 Mar 2019 20:05:22,664 TRACE persistence.repository.FlightJdbcRepository 58 save - Exit
+09 Mar 2019 20:05:22,666 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,666 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,667 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4b65183a)
+09 Mar 2019 20:05:22,669 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:22,670 TRACE persistence.repository.FlightJdbcRepository 170 findAllFlightsWithDestinationAndDateAndTime - Enter finding flight with destination New York and date 2019/03/09 and hour 15:00
+09 Mar 2019 20:05:22,671 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,671 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4b65183a)
+09 Mar 2019 20:05:22,674 TRACE persistence.repository.FlightJdbcRepository 196 findAllFlightsWithDestinationAndDateAndTime - Exit with([Flight(id=66, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250)])
+09 Mar 2019 20:05:22,674 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:22,675 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,675 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4b65183a)
+09 Mar 2019 20:05:22,679 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:22,684 INFO  persistence.repository.FlightJdbcRepository 21 <init> - Initializing FlightRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:22,685 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:22,686 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,687 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:22,688 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:22,689 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:22,689 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:22,690 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:22,698 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2a05c337)
+09 Mar 2019 20:05:22,700 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:22,701 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,701 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,702 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2a05c337)
+09 Mar 2019 20:05:22,704 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,705 TRACE persistence.repository.FlightJdbcRepository 45 save - Enter saving flight Flight(id=null, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250) 
+09 Mar 2019 20:05:22,706 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,707 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2a05c337)
+09 Mar 2019 20:05:22,710 TRACE persistence.repository.FlightJdbcRepository 58 save - Exit
+09 Mar 2019 20:05:22,710 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,711 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,712 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2a05c337)
+09 Mar 2019 20:05:22,713 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:22,714 TRACE persistence.repository.FlightJdbcRepository 202 findAll - Enter
+09 Mar 2019 20:05:22,714 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,715 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2a05c337)
+09 Mar 2019 20:05:22,717 TRACE persistence.repository.FlightJdbcRepository 223 findAll - Exit with([Flight(id=67, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250)])
+09 Mar 2019 20:05:22,718 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:22,718 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,719 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2a05c337)
+09 Mar 2019 20:05:22,722 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:22,724 INFO  persistence.repository.FlightJdbcRepository 21 <init> - Initializing FlightRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:22,725 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:22,726 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,727 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:22,727 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:22,728 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:22,728 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:22,729 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:22,736 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@68a9fda2)
+09 Mar 2019 20:05:22,738 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:22,739 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,739 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,740 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@68a9fda2)
+09 Mar 2019 20:05:22,741 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,742 TRACE persistence.repository.FlightJdbcRepository 45 save - Enter saving flight Flight(id=null, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250) 
+09 Mar 2019 20:05:22,743 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,744 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@68a9fda2)
+09 Mar 2019 20:05:22,746 TRACE persistence.repository.FlightJdbcRepository 58 save - Exit
+09 Mar 2019 20:05:22,747 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,747 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,748 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@68a9fda2)
+09 Mar 2019 20:05:22,750 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:22,751 TRACE persistence.repository.FlightJdbcRepository 202 findAll - Enter
+09 Mar 2019 20:05:22,751 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,752 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@68a9fda2)
+09 Mar 2019 20:05:22,754 TRACE persistence.repository.FlightJdbcRepository 223 findAll - Exit with([Flight(id=68, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250)])
+09 Mar 2019 20:05:22,755 TRACE persistence.repository.FlightJdbcRepository 111 findOne - Enter finding flight with id 68 
+09 Mar 2019 20:05:22,756 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,756 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@68a9fda2)
+09 Mar 2019 20:05:22,759 TRACE persistence.repository.FlightJdbcRepository 126 findOne - Exit with(Flight(id=68, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250))
+09 Mar 2019 20:05:22,759 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:22,760 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,761 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@68a9fda2)
+09 Mar 2019 20:05:22,767 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:22,769 INFO  persistence.repository.FlightJdbcRepository 21 <init> - Initializing FlightRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:22,770 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:22,771 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,772 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:22,772 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:22,773 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:22,774 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:22,774 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:22,784 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1c899c3c)
+09 Mar 2019 20:05:22,786 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:22,787 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,788 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,788 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1c899c3c)
+09 Mar 2019 20:05:22,791 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,792 TRACE persistence.repository.FlightJdbcRepository 45 save - Enter saving flight Flight(id=null, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250) 
+09 Mar 2019 20:05:22,794 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,795 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1c899c3c)
+09 Mar 2019 20:05:22,800 TRACE persistence.repository.FlightJdbcRepository 58 save - Exit
+09 Mar 2019 20:05:22,801 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,801 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,802 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1c899c3c)
+09 Mar 2019 20:05:22,804 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:22,805 TRACE persistence.repository.FlightJdbcRepository 202 findAll - Enter
+09 Mar 2019 20:05:22,806 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,807 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1c899c3c)
+09 Mar 2019 20:05:22,810 TRACE persistence.repository.FlightJdbcRepository 223 findAll - Exit with([Flight(id=69, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250)])
+09 Mar 2019 20:05:22,811 TRACE persistence.repository.FlightJdbcRepository 91 update - Enter updating flight with 69
+09 Mar 2019 20:05:22,812 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,813 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1c899c3c)
+09 Mar 2019 20:05:22,819 TRACE persistence.repository.FlightJdbcRepository 106 update - Exit
+09 Mar 2019 20:05:22,820 TRACE persistence.repository.FlightJdbcRepository 202 findAll - Enter
+09 Mar 2019 20:05:22,821 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,822 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1c899c3c)
+09 Mar 2019 20:05:22,825 TRACE persistence.repository.FlightJdbcRepository 223 findAll - Exit with([Flight(id=69, departureDate=2018/01/01, departureTime=17:00, airport=Beijing Capital Airport, destination=Singapore, places=300)])
+09 Mar 2019 20:05:22,826 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:22,827 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,828 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1c899c3c)
+09 Mar 2019 20:05:22,832 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:22,835 INFO  persistence.repository.FlightJdbcRepository 21 <init> - Initializing FlightRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:22,836 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:22,837 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,838 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:22,839 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:22,840 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:22,841 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:22,842 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:22,853 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@3d538a95)
+09 Mar 2019 20:05:22,856 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:22,857 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,857 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,858 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@3d538a95)
+09 Mar 2019 20:05:22,860 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,861 TRACE persistence.repository.FlightJdbcRepository 45 save - Enter saving flight Flight(id=null, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250) 
+09 Mar 2019 20:05:22,863 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,864 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@3d538a95)
+09 Mar 2019 20:05:22,868 TRACE persistence.repository.FlightJdbcRepository 58 save - Exit
+09 Mar 2019 20:05:22,869 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,869 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,870 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@3d538a95)
+09 Mar 2019 20:05:22,872 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:22,873 TRACE persistence.repository.FlightJdbcRepository 202 findAll - Enter
+09 Mar 2019 20:05:22,874 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,875 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@3d538a95)
+09 Mar 2019 20:05:22,878 TRACE persistence.repository.FlightJdbcRepository 223 findAll - Exit with([Flight(id=70, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250)])
+09 Mar 2019 20:05:22,879 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,879 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,880 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@3d538a95)
+09 Mar 2019 20:05:22,882 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:22,883 TRACE persistence.repository.FlightJdbcRepository 64 delete - Enter deleting flight with 70
+09 Mar 2019 20:05:22,884 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,885 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@3d538a95)
+09 Mar 2019 20:05:22,889 TRACE persistence.repository.FlightJdbcRepository 73 delete - Exit
+09 Mar 2019 20:05:22,890 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,891 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,891 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@3d538a95)
+09 Mar 2019 20:05:22,894 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,895 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:22,895 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,896 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@3d538a95)
+09 Mar 2019 20:05:22,897 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:22,900 INFO  persistence.repository.FlightJdbcRepository 21 <init> - Initializing FlightRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:22,901 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:22,902 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,903 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:22,904 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:22,905 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:22,906 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:22,907 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:22,917 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2ccdc858)
+09 Mar 2019 20:05:22,918 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:22,919 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,919 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,920 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2ccdc858)
+09 Mar 2019 20:05:22,921 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,922 TRACE persistence.repository.FlightJdbcRepository 45 save - Enter saving flight Flight(id=null, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250) 
+09 Mar 2019 20:05:22,923 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,924 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2ccdc858)
+09 Mar 2019 20:05:22,928 TRACE persistence.repository.FlightJdbcRepository 58 save - Exit
+09 Mar 2019 20:05:22,928 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,929 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,929 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2ccdc858)
+09 Mar 2019 20:05:22,931 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:22,932 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:22,933 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,934 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2ccdc858)
+09 Mar 2019 20:05:22,937 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:22,939 INFO  persistence.repository.FlightJdbcRepository 21 <init> - Initializing FlightRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:22,940 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:22,941 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,941 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:22,942 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:22,943 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:22,943 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:22,944 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:22,951 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@46442927)
+09 Mar 2019 20:05:22,953 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:22,954 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,954 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,955 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@46442927)
+09 Mar 2019 20:05:22,958 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,959 TRACE persistence.repository.FlightJdbcRepository 45 save - Enter saving flight Flight(id=null, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250) 
+09 Mar 2019 20:05:22,959 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,960 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@46442927)
+09 Mar 2019 20:05:22,964 TRACE persistence.repository.FlightJdbcRepository 58 save - Exit
+09 Mar 2019 20:05:22,964 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,965 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,966 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@46442927)
+09 Mar 2019 20:05:22,968 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:22,969 TRACE persistence.repository.FlightJdbcRepository 140 findAllFlightsWithDestinationAndDate - Enter finding flight with destination New York and date 2019/03/09
+09 Mar 2019 20:05:22,969 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,970 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@46442927)
+09 Mar 2019 20:05:22,972 TRACE persistence.repository.FlightJdbcRepository 165 findAllFlightsWithDestinationAndDate - Exit with([Flight(id=72, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250)])
+09 Mar 2019 20:05:22,973 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:22,974 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,974 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@46442927)
+09 Mar 2019 20:05:22,978 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:22,980 INFO  persistence.repository.FlightJdbcRepository 21 <init> - Initializing FlightRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:22,981 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:22,981 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,982 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:22,982 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:22,983 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:22,984 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:22,984 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:22,992 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1a49efda)
+09 Mar 2019 20:05:22,994 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:22,994 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:22,995 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,995 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1a49efda)
+09 Mar 2019 20:05:22,997 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:22,997 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:22,998 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:22,999 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1a49efda)
+09 Mar 2019 20:05:23,000 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:50,036 INFO  persistence.repository.BookingJdbcRepository 21 <init> - Initializing BookingJdbcRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:50,080 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:50,083 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:50,085 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:50,086 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:50,087 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:50,089 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:50,189 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:51,146 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@183ec003)
+09 Mar 2019 20:05:51,233 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:51,234 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,235 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,236 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@183ec003)
+09 Mar 2019 20:05:51,271 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:51,272 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:51,272 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,273 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@183ec003)
+09 Mar 2019 20:05:51,275 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:51,282 INFO  persistence.repository.BookingJdbcRepository 21 <init> - Initializing BookingJdbcRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:51,284 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:51,285 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,286 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:51,287 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:51,288 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:51,290 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:51,291 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:51,305 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@17bffc17)
+09 Mar 2019 20:05:51,307 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:51,308 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,309 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,310 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@17bffc17)
+09 Mar 2019 20:05:51,313 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:51,317 TRACE persistence.repository.BookingJdbcRepository 45 save - Enter saving booking Booking(id=null, flightId=1, clientName=Test1, clientAddress=TestAddress1, tourists=testTourist1, testTourist2, nrSeats=2) 
+09 Mar 2019 20:05:51,318 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,319 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@17bffc17)
+09 Mar 2019 20:05:51,329 TRACE persistence.repository.BookingJdbcRepository 59 save - Exit
+09 Mar 2019 20:05:51,330 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,331 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,332 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@17bffc17)
+09 Mar 2019 20:05:51,335 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:51,338 TRACE persistence.repository.BookingJdbcRepository 143 findAll - Enter
+09 Mar 2019 20:05:51,339 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,340 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@17bffc17)
+09 Mar 2019 20:05:51,346 TRACE persistence.repository.BookingJdbcRepository 164 findAll - Exit with([Booking(id=57, flightId=1, clientName=Test1, clientAddress=TestAddress1, tourists=testTourist1, testTourist2, nrSeats=2)])
+09 Mar 2019 20:05:51,367 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:51,368 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,369 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@17bffc17)
+09 Mar 2019 20:05:51,372 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:51,375 INFO  persistence.repository.BookingJdbcRepository 21 <init> - Initializing BookingJdbcRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:51,377 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:51,378 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,379 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:51,380 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:51,381 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:51,381 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:51,382 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:51,392 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@33ecda92)
+09 Mar 2019 20:05:51,394 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:51,395 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,395 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,396 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@33ecda92)
+09 Mar 2019 20:05:51,398 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:51,398 TRACE persistence.repository.BookingJdbcRepository 45 save - Enter saving booking Booking(id=null, flightId=1, clientName=Test1, clientAddress=TestAddress1, tourists=testTourist1, testTourist2, nrSeats=2) 
+09 Mar 2019 20:05:51,399 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,400 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@33ecda92)
+09 Mar 2019 20:05:51,407 TRACE persistence.repository.BookingJdbcRepository 59 save - Exit
+09 Mar 2019 20:05:51,408 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,409 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,410 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@33ecda92)
+09 Mar 2019 20:05:51,412 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:51,413 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:51,414 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,415 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@33ecda92)
+09 Mar 2019 20:05:51,418 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:51,420 INFO  persistence.repository.BookingJdbcRepository 21 <init> - Initializing BookingJdbcRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:51,422 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:51,423 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,424 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:51,424 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:51,425 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:51,426 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:51,426 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:51,437 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@dc7df28)
+09 Mar 2019 20:05:51,439 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:51,439 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,440 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,440 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@dc7df28)
+09 Mar 2019 20:05:51,444 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:51,445 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:51,446 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,447 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@dc7df28)
+09 Mar 2019 20:05:51,449 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:51,451 INFO  persistence.repository.BookingJdbcRepository 21 <init> - Initializing BookingJdbcRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:51,453 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:51,454 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,455 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:51,456 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:51,457 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:51,458 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:51,459 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:51,473 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@25df00a0)
+09 Mar 2019 20:05:51,475 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:51,476 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,477 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,478 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@25df00a0)
+09 Mar 2019 20:05:51,481 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:51,481 TRACE persistence.repository.BookingJdbcRepository 45 save - Enter saving booking Booking(id=null, flightId=1, clientName=Test1, clientAddress=TestAddress1, tourists=testTourist1, testTourist2, nrSeats=2) 
+09 Mar 2019 20:05:51,482 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,483 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@25df00a0)
+09 Mar 2019 20:05:51,488 TRACE persistence.repository.BookingJdbcRepository 59 save - Exit
+09 Mar 2019 20:05:51,489 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,490 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,491 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@25df00a0)
+09 Mar 2019 20:05:51,494 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:51,495 TRACE persistence.repository.BookingJdbcRepository 143 findAll - Enter
+09 Mar 2019 20:05:51,496 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,497 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@25df00a0)
+09 Mar 2019 20:05:51,500 TRACE persistence.repository.BookingJdbcRepository 164 findAll - Exit with([Booking(id=59, flightId=1, clientName=Test1, clientAddress=TestAddress1, tourists=testTourist1, testTourist2, nrSeats=2)])
+09 Mar 2019 20:05:51,501 TRACE persistence.repository.BookingJdbcRepository 92 update - Enter updating booking with 59
+09 Mar 2019 20:05:51,502 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,503 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@25df00a0)
+09 Mar 2019 20:05:51,509 TRACE persistence.repository.BookingJdbcRepository 107 update - Exit
+09 Mar 2019 20:05:51,510 TRACE persistence.repository.BookingJdbcRepository 143 findAll - Enter
+09 Mar 2019 20:05:51,511 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,512 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@25df00a0)
+09 Mar 2019 20:05:51,516 TRACE persistence.repository.BookingJdbcRepository 164 findAll - Exit with([Booking(id=59, flightId=2, clientName=UpdateName, clientAddress=UpdateAddress, tourists=updateTourist, nrSeats=1)])
+09 Mar 2019 20:05:51,517 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:51,518 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,519 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@25df00a0)
+09 Mar 2019 20:05:51,524 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:51,527 INFO  persistence.repository.BookingJdbcRepository 21 <init> - Initializing BookingJdbcRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:51,529 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:51,531 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,532 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:51,533 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:51,535 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:51,536 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:51,536 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:51,550 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@97e93f1)
+09 Mar 2019 20:05:51,553 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:51,554 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,555 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,556 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@97e93f1)
+09 Mar 2019 20:05:51,559 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:51,561 TRACE persistence.repository.BookingJdbcRepository 45 save - Enter saving booking Booking(id=null, flightId=1, clientName=Test1, clientAddress=TestAddress1, tourists=testTourist1, testTourist2, nrSeats=2) 
+09 Mar 2019 20:05:51,562 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,562 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@97e93f1)
+09 Mar 2019 20:05:51,567 TRACE persistence.repository.BookingJdbcRepository 59 save - Exit
+09 Mar 2019 20:05:51,568 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,569 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,570 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@97e93f1)
+09 Mar 2019 20:05:51,573 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:51,574 TRACE persistence.repository.BookingJdbcRepository 143 findAll - Enter
+09 Mar 2019 20:05:51,575 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,576 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@97e93f1)
+09 Mar 2019 20:05:51,579 TRACE persistence.repository.BookingJdbcRepository 164 findAll - Exit with([Booking(id=60, flightId=1, clientName=Test1, clientAddress=TestAddress1, tourists=testTourist1, testTourist2, nrSeats=2)])
+09 Mar 2019 20:05:51,580 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,581 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,581 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@97e93f1)
+09 Mar 2019 20:05:51,584 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:51,586 TRACE persistence.repository.BookingJdbcRepository 65 delete - Enter deleting booking with 60
+09 Mar 2019 20:05:51,587 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,588 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@97e93f1)
+09 Mar 2019 20:05:51,592 TRACE persistence.repository.BookingJdbcRepository 74 delete - Exit
+09 Mar 2019 20:05:51,594 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,596 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,597 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@97e93f1)
+09 Mar 2019 20:05:51,600 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:51,601 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:51,602 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,602 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@97e93f1)
+09 Mar 2019 20:05:51,605 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:51,608 INFO  persistence.repository.BookingJdbcRepository 21 <init> - Initializing BookingJdbcRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:51,610 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:51,610 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,611 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:51,611 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:51,612 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:51,613 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:51,614 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:51,626 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@6f43c82)
+09 Mar 2019 20:05:51,628 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:51,629 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,630 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,630 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@6f43c82)
+09 Mar 2019 20:05:51,633 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:51,634 TRACE persistence.repository.BookingJdbcRepository 45 save - Enter saving booking Booking(id=null, flightId=1, clientName=Test1, clientAddress=TestAddress1, tourists=testTourist1, testTourist2, nrSeats=2) 
+09 Mar 2019 20:05:51,635 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,636 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@6f43c82)
+09 Mar 2019 20:05:51,641 TRACE persistence.repository.BookingJdbcRepository 59 save - Exit
+09 Mar 2019 20:05:51,643 TRACE persistence.repository.BookingJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,644 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,645 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@6f43c82)
+09 Mar 2019 20:05:51,647 TRACE persistence.repository.BookingJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:51,649 TRACE persistence.repository.BookingJdbcRepository 143 findAll - Enter
+09 Mar 2019 20:05:51,649 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,650 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@6f43c82)
+09 Mar 2019 20:05:51,653 TRACE persistence.repository.BookingJdbcRepository 164 findAll - Exit with([Booking(id=61, flightId=1, clientName=Test1, clientAddress=TestAddress1, tourists=testTourist1, testTourist2, nrSeats=2)])
+09 Mar 2019 20:05:51,654 TRACE persistence.repository.BookingJdbcRepository 112 findOne - Enter finding task with id 61 
+09 Mar 2019 20:05:51,655 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,655 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@6f43c82)
+09 Mar 2019 20:05:51,657 TRACE persistence.repository.BookingJdbcRepository 128 findOne - Exit with(Booking(id=61, flightId=1, clientName=Test1, clientAddress=TestAddress1, tourists=testTourist1, testTourist2, nrSeats=2))
+09 Mar 2019 20:05:51,659 TRACE persistence.repository.BookingJdbcRepository 79 deleteAll - Enter deleting all bookings
+09 Mar 2019 20:05:51,660 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,661 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@6f43c82)
+09 Mar 2019 20:05:51,665 TRACE persistence.repository.BookingJdbcRepository 87 deleteAll - Exit
+09 Mar 2019 20:05:51,670 INFO  persistence.repository.EmployeeJdbcRepository 21 <init> - Initializing EmployeeRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:51,671 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:51,672 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,673 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:51,674 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:51,675 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:51,675 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:51,677 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:51,690 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5340477f)
+09 Mar 2019 20:05:51,692 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:51,693 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,694 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,695 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5340477f)
+09 Mar 2019 20:05:51,698 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:51,702 TRACE persistence.repository.EmployeeJdbcRepository 45 save - Enter saving employee Employee(id=null, username=username, password=password) 
+09 Mar 2019 20:05:51,703 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,705 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5340477f)
+09 Mar 2019 20:05:51,709 TRACE persistence.repository.EmployeeJdbcRepository 55 save - Exit
+09 Mar 2019 20:05:51,710 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,711 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,712 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5340477f)
+09 Mar 2019 20:05:51,715 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:51,717 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:51,718 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,719 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5340477f)
+09 Mar 2019 20:05:51,722 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:51,726 INFO  persistence.repository.EmployeeJdbcRepository 21 <init> - Initializing EmployeeRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:51,729 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:51,730 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,730 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:51,731 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:51,732 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:51,733 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:51,734 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:51,755 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@126253fd)
+09 Mar 2019 20:05:51,762 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:51,764 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,765 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,765 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@126253fd)
+09 Mar 2019 20:05:51,769 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:51,770 TRACE persistence.repository.EmployeeJdbcRepository 45 save - Enter saving employee Employee(id=null, username=username, password=password) 
+09 Mar 2019 20:05:51,773 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,774 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@126253fd)
+09 Mar 2019 20:05:51,781 TRACE persistence.repository.EmployeeJdbcRepository 55 save - Exit
+09 Mar 2019 20:05:51,782 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,783 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,784 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@126253fd)
+09 Mar 2019 20:05:51,792 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:51,794 TRACE persistence.repository.EmployeeJdbcRepository 132 findAll - Enter
+09 Mar 2019 20:05:51,795 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,798 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@126253fd)
+09 Mar 2019 20:05:51,802 TRACE persistence.repository.EmployeeJdbcRepository 150 findAll - Exit with([Employee(id=55, username=username, password=password)])
+09 Mar 2019 20:05:51,804 TRACE persistence.repository.EmployeeJdbcRepository 105 findOne - Enter finding employee with id 55 
+09 Mar 2019 20:05:51,805 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,806 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@126253fd)
+09 Mar 2019 20:05:51,828 TRACE persistence.repository.EmployeeJdbcRepository 117 findOne - Exit with(Employee(id=55, username=username, password=password))
+09 Mar 2019 20:05:51,830 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:51,832 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,833 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@126253fd)
+09 Mar 2019 20:05:51,838 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:51,844 INFO  persistence.repository.EmployeeJdbcRepository 21 <init> - Initializing EmployeeRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:51,846 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:51,847 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,848 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:51,849 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:51,850 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:51,851 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:51,852 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:51,870 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4dc27487)
+09 Mar 2019 20:05:51,873 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:51,874 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,875 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,876 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4dc27487)
+09 Mar 2019 20:05:51,879 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:51,880 TRACE persistence.repository.EmployeeJdbcRepository 45 save - Enter saving employee Employee(id=null, username=username, password=password) 
+09 Mar 2019 20:05:51,881 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,882 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4dc27487)
+09 Mar 2019 20:05:51,887 TRACE persistence.repository.EmployeeJdbcRepository 55 save - Exit
+09 Mar 2019 20:05:51,887 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,888 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,889 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4dc27487)
+09 Mar 2019 20:05:51,892 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:51,893 TRACE persistence.repository.EmployeeJdbcRepository 132 findAll - Enter
+09 Mar 2019 20:05:51,894 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,895 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4dc27487)
+09 Mar 2019 20:05:51,898 TRACE persistence.repository.EmployeeJdbcRepository 150 findAll - Exit with([Employee(id=56, username=username, password=password)])
+09 Mar 2019 20:05:51,899 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:51,899 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,900 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4dc27487)
+09 Mar 2019 20:05:51,904 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:51,907 INFO  persistence.repository.EmployeeJdbcRepository 21 <init> - Initializing EmployeeRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:51,910 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:51,911 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,912 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:51,912 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:51,913 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:51,914 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:51,915 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:51,954 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@169bb4dd)
+09 Mar 2019 20:05:51,957 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:51,958 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,958 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,959 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@169bb4dd)
+09 Mar 2019 20:05:51,962 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:51,963 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:51,964 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,965 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@169bb4dd)
+09 Mar 2019 20:05:51,967 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:51,970 INFO  persistence.repository.EmployeeJdbcRepository 21 <init> - Initializing EmployeeRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:51,972 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:51,973 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,974 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:51,975 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:51,975 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:51,977 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:51,977 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:51,988 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@14dd7b39)
+09 Mar 2019 20:05:51,991 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:51,992 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:51,993 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,993 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@14dd7b39)
+09 Mar 2019 20:05:51,996 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:51,997 TRACE persistence.repository.EmployeeJdbcRepository 45 save - Enter saving employee Employee(id=null, username=username, password=password) 
+09 Mar 2019 20:05:51,998 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:51,999 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@14dd7b39)
+09 Mar 2019 20:05:52,003 TRACE persistence.repository.EmployeeJdbcRepository 55 save - Exit
+09 Mar 2019 20:05:52,004 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,005 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,006 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@14dd7b39)
+09 Mar 2019 20:05:52,008 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:52,009 TRACE persistence.repository.EmployeeJdbcRepository 132 findAll - Enter
+09 Mar 2019 20:05:52,010 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,010 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@14dd7b39)
+09 Mar 2019 20:05:52,013 TRACE persistence.repository.EmployeeJdbcRepository 150 findAll - Exit with([Employee(id=57, username=username, password=password)])
+09 Mar 2019 20:05:52,014 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,014 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,015 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@14dd7b39)
+09 Mar 2019 20:05:52,017 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:52,017 TRACE persistence.repository.EmployeeJdbcRepository 61 delete - Enter deleting employee with 57
+09 Mar 2019 20:05:52,018 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,018 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@14dd7b39)
+09 Mar 2019 20:05:52,022 TRACE persistence.repository.EmployeeJdbcRepository 70 delete - Exit
+09 Mar 2019 20:05:52,024 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,024 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,025 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@14dd7b39)
+09 Mar 2019 20:05:52,028 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:52,029 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:52,030 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,031 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@14dd7b39)
+09 Mar 2019 20:05:52,033 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:52,038 INFO  persistence.repository.EmployeeJdbcRepository 21 <init> - Initializing EmployeeRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:52,040 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:52,041 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,042 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:52,044 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:52,045 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:52,046 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:52,047 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:52,056 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@38145825)
+09 Mar 2019 20:05:52,058 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:52,059 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,060 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,060 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@38145825)
+09 Mar 2019 20:05:52,063 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:52,064 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:52,064 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,065 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@38145825)
+09 Mar 2019 20:05:52,067 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:52,069 INFO  persistence.repository.EmployeeJdbcRepository 21 <init> - Initializing EmployeeRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:52,070 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:52,071 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,071 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:52,072 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:52,073 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:52,073 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:52,074 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:52,085 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@508dec2b)
+09 Mar 2019 20:05:52,088 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:52,089 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,089 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,090 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@508dec2b)
+09 Mar 2019 20:05:52,092 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:52,094 TRACE persistence.repository.EmployeeJdbcRepository 45 save - Enter saving employee Employee(id=null, username=username, password=password) 
+09 Mar 2019 20:05:52,094 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,095 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@508dec2b)
+09 Mar 2019 20:05:52,100 TRACE persistence.repository.EmployeeJdbcRepository 55 save - Exit
+09 Mar 2019 20:05:52,101 TRACE persistence.repository.EmployeeJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,102 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,103 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@508dec2b)
+09 Mar 2019 20:05:52,105 TRACE persistence.repository.EmployeeJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:52,106 TRACE persistence.repository.EmployeeJdbcRepository 132 findAll - Enter
+09 Mar 2019 20:05:52,107 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,108 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@508dec2b)
+09 Mar 2019 20:05:52,111 TRACE persistence.repository.EmployeeJdbcRepository 150 findAll - Exit with([Employee(id=58, username=username, password=password)])
+09 Mar 2019 20:05:52,113 TRACE persistence.repository.EmployeeJdbcRepository 88 update - Enter updating employee with 58
+09 Mar 2019 20:05:52,114 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,115 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@508dec2b)
+09 Mar 2019 20:05:52,123 TRACE persistence.repository.EmployeeJdbcRepository 100 update - Exit
+09 Mar 2019 20:05:52,124 TRACE persistence.repository.EmployeeJdbcRepository 132 findAll - Enter
+09 Mar 2019 20:05:52,125 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,126 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@508dec2b)
+09 Mar 2019 20:05:52,131 TRACE persistence.repository.EmployeeJdbcRepository 150 findAll - Exit with([Employee(id=58, username=username2, password=password2)])
+09 Mar 2019 20:05:52,132 TRACE persistence.repository.EmployeeJdbcRepository 75 deleteAll - Enter deleting all employees
+09 Mar 2019 20:05:52,141 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,142 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@508dec2b)
+09 Mar 2019 20:05:52,149 TRACE persistence.repository.EmployeeJdbcRepository 83 deleteAll - Exit
+09 Mar 2019 20:05:52,159 INFO  persistence.repository.FlightJdbcRepository 21 <init> - Initializing FlightRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:52,161 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:52,162 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,162 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:52,163 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:52,164 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:52,164 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:52,165 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:52,178 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1c9b0314)
+09 Mar 2019 20:05:52,182 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:52,183 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,184 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,185 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1c9b0314)
+09 Mar 2019 20:05:52,188 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:52,189 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:52,191 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,191 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1c9b0314)
+09 Mar 2019 20:05:52,193 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:52,196 INFO  persistence.repository.FlightJdbcRepository 21 <init> - Initializing FlightRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:52,197 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:52,198 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,198 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:52,199 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:52,200 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:52,200 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:52,201 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:52,212 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@f58853c)
+09 Mar 2019 20:05:52,214 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:52,215 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,215 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,216 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@f58853c)
+09 Mar 2019 20:05:52,219 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:52,223 TRACE persistence.repository.FlightJdbcRepository 45 save - Enter saving flight Flight(id=null, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250) 
+09 Mar 2019 20:05:52,223 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,224 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@f58853c)
+09 Mar 2019 20:05:52,229 TRACE persistence.repository.FlightJdbcRepository 58 save - Exit
+09 Mar 2019 20:05:52,230 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,230 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,230 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@f58853c)
+09 Mar 2019 20:05:52,233 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:52,234 TRACE persistence.repository.FlightJdbcRepository 170 findAllFlightsWithDestinationAndDateAndTime - Enter finding flight with destination New York and date 2019/03/09 and hour 15:00
+09 Mar 2019 20:05:52,235 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,236 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@f58853c)
+09 Mar 2019 20:05:52,238 TRACE persistence.repository.FlightJdbcRepository 196 findAllFlightsWithDestinationAndDateAndTime - Exit with([Flight(id=73, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250)])
+09 Mar 2019 20:05:52,239 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:52,240 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,241 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@f58853c)
+09 Mar 2019 20:05:52,244 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:52,247 INFO  persistence.repository.FlightJdbcRepository 21 <init> - Initializing FlightRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:52,249 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:52,249 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,250 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:52,251 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:52,251 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:52,252 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:52,253 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:52,262 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7dc3712)
+09 Mar 2019 20:05:52,264 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:52,264 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,265 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,265 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7dc3712)
+09 Mar 2019 20:05:52,268 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:52,269 TRACE persistence.repository.FlightJdbcRepository 45 save - Enter saving flight Flight(id=null, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250) 
+09 Mar 2019 20:05:52,269 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,270 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7dc3712)
+09 Mar 2019 20:05:52,274 TRACE persistence.repository.FlightJdbcRepository 58 save - Exit
+09 Mar 2019 20:05:52,275 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,276 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,277 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7dc3712)
+09 Mar 2019 20:05:52,279 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:52,280 TRACE persistence.repository.FlightJdbcRepository 202 findAll - Enter
+09 Mar 2019 20:05:52,281 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,281 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7dc3712)
+09 Mar 2019 20:05:52,284 TRACE persistence.repository.FlightJdbcRepository 223 findAll - Exit with([Flight(id=74, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250)])
+09 Mar 2019 20:05:52,285 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:52,286 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,286 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7dc3712)
+09 Mar 2019 20:05:52,289 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:52,291 INFO  persistence.repository.FlightJdbcRepository 21 <init> - Initializing FlightRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:52,292 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:52,292 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,293 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:52,294 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:52,294 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:52,295 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:52,295 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:52,303 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@642a7222)
+09 Mar 2019 20:05:52,304 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:52,305 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,305 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,306 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@642a7222)
+09 Mar 2019 20:05:52,308 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:52,308 TRACE persistence.repository.FlightJdbcRepository 45 save - Enter saving flight Flight(id=null, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250) 
+09 Mar 2019 20:05:52,309 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,309 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@642a7222)
+09 Mar 2019 20:05:52,313 TRACE persistence.repository.FlightJdbcRepository 58 save - Exit
+09 Mar 2019 20:05:52,314 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,315 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,316 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@642a7222)
+09 Mar 2019 20:05:52,318 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:52,319 TRACE persistence.repository.FlightJdbcRepository 202 findAll - Enter
+09 Mar 2019 20:05:52,320 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,321 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@642a7222)
+09 Mar 2019 20:05:52,324 TRACE persistence.repository.FlightJdbcRepository 223 findAll - Exit with([Flight(id=75, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250)])
+09 Mar 2019 20:05:52,324 TRACE persistence.repository.FlightJdbcRepository 111 findOne - Enter finding flight with id 75 
+09 Mar 2019 20:05:52,325 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,326 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@642a7222)
+09 Mar 2019 20:05:52,329 TRACE persistence.repository.FlightJdbcRepository 126 findOne - Exit with(Flight(id=75, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250))
+09 Mar 2019 20:05:52,329 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:52,330 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,330 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@642a7222)
+09 Mar 2019 20:05:52,334 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:52,336 INFO  persistence.repository.FlightJdbcRepository 21 <init> - Initializing FlightRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:52,338 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:52,338 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,339 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:52,340 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:52,340 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:52,341 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:52,342 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:52,352 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@503f91c3)
+09 Mar 2019 20:05:52,354 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:52,355 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,355 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,355 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@503f91c3)
+09 Mar 2019 20:05:52,357 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:52,358 TRACE persistence.repository.FlightJdbcRepository 45 save - Enter saving flight Flight(id=null, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250) 
+09 Mar 2019 20:05:52,359 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,360 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@503f91c3)
+09 Mar 2019 20:05:52,365 TRACE persistence.repository.FlightJdbcRepository 58 save - Exit
+09 Mar 2019 20:05:52,366 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,366 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,367 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@503f91c3)
+09 Mar 2019 20:05:52,370 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:52,371 TRACE persistence.repository.FlightJdbcRepository 202 findAll - Enter
+09 Mar 2019 20:05:52,372 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,372 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@503f91c3)
+09 Mar 2019 20:05:52,375 TRACE persistence.repository.FlightJdbcRepository 223 findAll - Exit with([Flight(id=76, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250)])
+09 Mar 2019 20:05:52,376 TRACE persistence.repository.FlightJdbcRepository 91 update - Enter updating flight with 76
+09 Mar 2019 20:05:52,377 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,377 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@503f91c3)
+09 Mar 2019 20:05:52,382 TRACE persistence.repository.FlightJdbcRepository 106 update - Exit
+09 Mar 2019 20:05:52,383 TRACE persistence.repository.FlightJdbcRepository 202 findAll - Enter
+09 Mar 2019 20:05:52,383 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,384 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@503f91c3)
+09 Mar 2019 20:05:52,387 TRACE persistence.repository.FlightJdbcRepository 223 findAll - Exit with([Flight(id=76, departureDate=2018/01/01, departureTime=17:00, airport=Beijing Capital Airport, destination=Singapore, places=300)])
+09 Mar 2019 20:05:52,387 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:52,388 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,389 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@503f91c3)
+09 Mar 2019 20:05:52,392 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:52,394 INFO  persistence.repository.FlightJdbcRepository 21 <init> - Initializing FlightRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:52,396 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:52,396 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,397 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:52,398 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:52,398 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:52,399 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:52,400 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:52,416 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5c86dbc5)
+09 Mar 2019 20:05:52,418 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:52,419 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,419 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,420 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5c86dbc5)
+09 Mar 2019 20:05:52,422 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:52,422 TRACE persistence.repository.FlightJdbcRepository 45 save - Enter saving flight Flight(id=null, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250) 
+09 Mar 2019 20:05:52,423 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,424 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5c86dbc5)
+09 Mar 2019 20:05:52,429 TRACE persistence.repository.FlightJdbcRepository 58 save - Exit
+09 Mar 2019 20:05:52,429 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,430 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,430 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5c86dbc5)
+09 Mar 2019 20:05:52,432 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:52,433 TRACE persistence.repository.FlightJdbcRepository 202 findAll - Enter
+09 Mar 2019 20:05:52,434 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,434 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5c86dbc5)
+09 Mar 2019 20:05:52,437 TRACE persistence.repository.FlightJdbcRepository 223 findAll - Exit with([Flight(id=77, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250)])
+09 Mar 2019 20:05:52,437 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,438 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,438 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5c86dbc5)
+09 Mar 2019 20:05:52,440 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:52,441 TRACE persistence.repository.FlightJdbcRepository 64 delete - Enter deleting flight with 77
+09 Mar 2019 20:05:52,442 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,444 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5c86dbc5)
+09 Mar 2019 20:05:52,447 TRACE persistence.repository.FlightJdbcRepository 73 delete - Exit
+09 Mar 2019 20:05:52,448 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,448 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,449 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5c86dbc5)
+09 Mar 2019 20:05:52,450 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:52,451 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:52,451 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,452 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5c86dbc5)
+09 Mar 2019 20:05:52,453 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:52,456 INFO  persistence.repository.FlightJdbcRepository 21 <init> - Initializing FlightRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:52,457 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:52,458 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,459 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:52,459 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:52,460 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:52,461 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:52,462 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:52,472 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5167f57d)
+09 Mar 2019 20:05:52,474 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:52,474 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,475 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,475 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5167f57d)
+09 Mar 2019 20:05:52,478 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:52,479 TRACE persistence.repository.FlightJdbcRepository 45 save - Enter saving flight Flight(id=null, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250) 
+09 Mar 2019 20:05:52,479 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,479 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5167f57d)
+09 Mar 2019 20:05:52,483 TRACE persistence.repository.FlightJdbcRepository 58 save - Exit
+09 Mar 2019 20:05:52,484 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,485 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,485 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5167f57d)
+09 Mar 2019 20:05:52,487 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:52,488 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:52,489 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,489 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5167f57d)
+09 Mar 2019 20:05:52,492 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:52,495 INFO  persistence.repository.FlightJdbcRepository 21 <init> - Initializing FlightRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:52,496 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:52,497 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,497 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:52,498 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:52,498 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:52,499 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:52,500 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:52,509 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@28194a50)
+09 Mar 2019 20:05:52,512 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:52,513 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,514 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,514 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@28194a50)
+09 Mar 2019 20:05:52,518 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:52,519 TRACE persistence.repository.FlightJdbcRepository 45 save - Enter saving flight Flight(id=null, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250) 
+09 Mar 2019 20:05:52,520 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,520 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@28194a50)
+09 Mar 2019 20:05:52,525 TRACE persistence.repository.FlightJdbcRepository 58 save - Exit
+09 Mar 2019 20:05:52,527 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,528 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,529 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@28194a50)
+09 Mar 2019 20:05:52,531 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(1)
+09 Mar 2019 20:05:52,532 TRACE persistence.repository.FlightJdbcRepository 140 findAllFlightsWithDestinationAndDate - Enter finding flight with destination New York and date 2019/03/09
+09 Mar 2019 20:05:52,533 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,533 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@28194a50)
+09 Mar 2019 20:05:52,536 TRACE persistence.repository.FlightJdbcRepository 165 findAllFlightsWithDestinationAndDate - Exit with([Flight(id=79, departureDate=2019/03/09, departureTime=15:00, airport=Tokyo International Airport, destination=New York, places=250)])
+09 Mar 2019 20:05:52,537 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:52,537 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,537 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@28194a50)
+09 Mar 2019 20:05:52,540 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:52,541 INFO  persistence.repository.FlightJdbcRepository 21 <init> - Initializing FlightRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/problema1, tasks.jdbc.driver=com.mysql.jdbc.Driver} 
+09 Mar 2019 20:05:52,542 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:52,542 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,543 TRACE persistence.repository.JdbcUtils 22 getNewConnection - Enter
+09 Mar 2019 20:05:52,543 INFO  persistence.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/problema1
+09 Mar 2019 20:05:52,544 INFO  persistence.repository.JdbcUtils 28 getNewConnection - user: root
+09 Mar 2019 20:05:52,545 INFO  persistence.repository.JdbcUtils 29 getNewConnection - pass: 
+09 Mar 2019 20:05:52,545 INFO  persistence.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+09 Mar 2019 20:05:52,554 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4b8729ff)
+09 Mar 2019 20:05:52,555 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
+09 Mar 2019 20:05:52,556 TRACE persistence.repository.FlightJdbcRepository 27 size - Enter
+09 Mar 2019 20:05:52,556 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,557 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4b8729ff)
+09 Mar 2019 20:05:52,558 TRACE persistence.repository.FlightJdbcRepository 32 size - Exit with(0)
+09 Mar 2019 20:05:52,559 TRACE persistence.repository.FlightJdbcRepository 78 deleteAll - Enter deleting all flight
+09 Mar 2019 20:05:52,559 TRACE persistence.repository.JdbcUtils 49 getConnection - Enter
+09 Mar 2019 20:05:52,560 TRACE persistence.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4b8729ff)
+09 Mar 2019 20:05:52,562 TRACE persistence.repository.FlightJdbcRepository 86 deleteAll - Exit
