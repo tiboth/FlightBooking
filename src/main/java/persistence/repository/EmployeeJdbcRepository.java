@@ -24,6 +24,7 @@ public class EmployeeJdbcRepository implements IRepository<Integer, Employee> {
 
     @Override
     public int size() {
+
         logger.traceEntry();
         Connection con=dbUtils.getConnection();
         try(PreparedStatement preStmt=con.prepareStatement("select count(*) as SIZE from employees")) {
@@ -98,6 +99,33 @@ public class EmployeeJdbcRepository implements IRepository<Integer, Employee> {
             System.out.println("Error DB "+ex);
         }
         logger.traceExit();
+    }
+
+    public Employee login(String username, String password) {
+        logger.traceEntry("finding employee with username {} password {} ",username, password);
+        Connection con=dbUtils.getConnection();
+
+        try(PreparedStatement preStmt=con.prepareStatement("select * from employees where username=? and password=?")){
+            preStmt.setString(1,username);
+            preStmt.setString(2,password);
+            try(ResultSet result=preStmt.executeQuery()) {
+                if (result.next()) {
+                    int id = result.getInt("id");
+                    String usernameFound = result.getString("username");
+                    String passwordFound = result.getString("password");
+
+                    Employee employee = new Employee(id, username, password);
+                    logger.traceExit(employee);
+                    return employee;
+                }
+            }
+        }catch (SQLException ex){
+            logger.error(ex);
+            System.out.println("Error DB "+ex);
+        }
+        logger.traceExit("No employee found with username {}", username);
+
+        return null;
     }
 
     @Override

@@ -126,6 +126,29 @@ public class EmployeeJdbcRepositoryTest {
     }
 
     @Test
+    public void testLoginEmployee() {
+        //delete all rows from employees
+        employeeJdbcRepository.deleteAll();
+        Assert.assertEquals(0,employeeJdbcRepository.size());
+
+        //save
+        employeeJdbcRepository.save(createEmployee1());
+        Assert.assertEquals(1,employeeJdbcRepository.size());
+
+        //find all
+        List<Employee> employeeList = Lists.newArrayList(employeeJdbcRepository.findAll());
+
+        //find one
+        Employee employee = employeeJdbcRepository.login(employeeList.get(0).getUsername(), employeeList.get(0).getPassword());
+
+        //test FINDE ONE
+        Assert.assertEquals("username", employee.getUsername());
+        Assert.assertEquals("password", employee.getPassword());
+
+
+    }
+
+    @Test
     public void testFindAllEmployees() {
         //delete all rows from employees
         employeeJdbcRepository.deleteAll();
